@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Big 3 Mashup Fan Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #ffcc00;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ff6600;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background: #ff8533;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border: 2px solid #ff6600;
+            border-radius: 10px;
+            margin: 15px;
+            width: 220px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .card h3 {
+            margin: 10px 0 5px 0;
+        }
+        .card p {
+            font-size: 0.9em;
+            padding: 0 10px 10px 10px;
+        }
+        footer {
+            background: #ffcc00;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body><header>The Big 3 Anime Mashup</header><nav>
+    <a href="#home">Home</a>
+    <a href="#big3">Big 3</a>
+    <a href="#funfacts">Fun Facts</a>
+</nav><section class="container" id="big3">
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3a/MonkeyDLuffy.png" alt="Luffy">
+        <h3>Monkey D. Luffy (One Piece)</h3>
+        <p>Captain of the Straw Hat Pirates. Loves meat, laughs a lot, and stretches his body like rubber! 😆🍖</p>
+    </div>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Naruto_Uzumaki.png" alt="Naruto">
+        <h3>Naruto Uzumaki (Naruto)</h3>
+        <p>Future Hokage. Loves ramen, never gives up, pranks everyone, and has a fox in his stomach! 🍜🦊</p>
+    </div>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/f/fc/Ichigo_Kurosaki_Bleach.png" alt="Ichigo">
+        <h3>Ichigo Kurosaki (Bleach)</h3>
+        <p>Gets into fights with ghosts a lot. Orange hair, bad attitude, but super loyal to friends. 👻🗡️</p>
+    </div>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Goku_anime.png" alt="Goku">
+        <h3>Goku (Dragon Ball)</h3>
+        <p>Loves fighting strong opponents, eats a ton, and goes Super Saiyan when things get serious! 🥩💥</p>
+    </div>
+</section><footer>© 2026 The Big 3 Mashup Fan Page</footer></body>
+</html>
